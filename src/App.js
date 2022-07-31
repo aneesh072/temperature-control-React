@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const App = () => {
   const [temperatureValue, setTemperatureValue] = useState(10);
-  const [temperatureColor, setTemperatureColor] = useState('hot');
+  const [temperatureColor, setTemperatureColor] = useState('cold');
 
   const increaseTemp = () => {
     if (temperatureValue === 30) return;
